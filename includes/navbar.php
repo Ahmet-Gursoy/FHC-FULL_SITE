@@ -23,7 +23,7 @@ try {
 ?>
 
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="../index.php" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+        <a href="/../index" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
         <img src="../img/saglikbakan2.jpg" alt="Logo" style="height: 50px; margin-left: 0px; margin-right: 10px;">
             <h2 class="m-0 text-primary"><?php echo htmlspecialchars($site_adi); ?></h2>
         </a>
@@ -32,32 +32,32 @@ try {
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="../index.php" class="nav-item nav-link ">Ana Sayfa</a>
+                <a href="/../index" class="nav-item nav-link ">Ana Sayfa</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kurumsal</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="../institutional/service-standards.php" class="dropdown-item">Hizmet Standartları</a>
-                        <a href="../institutional/priority-patients.php" class="dropdown-item">Öncelikli Hastalar</a>
+                        <a href="/../institutional/service-standards" class="dropdown-item">Hizmet Standartları</a>
+                        <a href="/../institutional/priority-patients" class="dropdown-item">Öncelikli Hastalar</a>
                     </div>
                 </div>
-                <a href="../homepage/announcements.php" class="nav-item nav-link">DUYURULAR</a>
-                <a href="../homepage/gallery.php" class="nav-item nav-link">Galeri</a>
+                <a href="/../homepage/announcements" class="nav-item nav-link">DUYURULAR</a>
+                <a href="/../homepage/gallery" class="nav-item nav-link">Galeri</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kadromuz</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="../our-staff/doctor-employees.php" class="dropdown-item">Aile Hekimlerimiz</a>
-                        <a href="../our-staff/asm-employees.php" class="dropdown-item">Aile Sağlığı Çalışanlarımız</a> 
-                        <a href="../our-staff/support-staff.php" class="dropdown-item">Yardımcı Personellerimiz</a>
+                        <a href="/../our-staff/doctor-employees" class="dropdown-item">Aile Hekimlerimiz</a>
+                        <a href="/../our-staff/asm-employees" class="dropdown-item">Aile Sağlığı Çalışanlarımız</a> 
+                        <a href="/../our-staff/support-staff" class="dropdown-item">Yardımcı Personellerimiz</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dosyalar</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="../filesasm/instructions.php" class="dropdown-item">ASM Talimatları</a>
-                        <a href="../filesasm/useful-files.php" class="dropdown-item">Yararlı Dosyalar</a>
-                        <a href="../filesasm/first-aid.php" class="dropdown-item">İlk Yardım</a>
-                        <a href="../filesasm/smoking-harm.php" class="dropdown-item">Sigaranın Zararları</a>
-                        <a href="../filesasm/disease-information.php" class="dropdown-item">Hastalıklar Hakkında </a>
+                        <a href="/../filesasm/instructions" class="dropdown-item">ASM Talimatları</a>
+                        <a href="/../filesasm/useful-files" class="dropdown-item">Yararlı Dosyalar</a>
+                        <a href="/../filesasm/first-aid" class="dropdown-item">İlk Yardım</a>
+                        <a href="/../filesasm/smoking-harm" class="dropdown-item">Sigaranın Zararları</a>
+                        <a href="/../filesasm/disease-information" class="dropdown-item">Hastalıklar Hakkında </a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
@@ -74,19 +74,19 @@ try {
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sağlık Üzerine</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="../on-health/vaccination-schedule.php" class="dropdown-item">Bebeğinizin Aşı Takvimi</a>
-                        <a href="../on-health/activity.php" class="dropdown-item">Aktiviteye Göre Harcanan Kalori</a>
-                        <a href="../on-health/waist-size.php" class="dropdown-item">Yetişkin Bel Çevresi Hesaplama</a>
-                        <a href="../on-health/body-index.php" class="dropdown-item">Yetişkin Beden Kitle Endeksi</a>
-                        <a href="../on-health/child-index.php" class="dropdown-item">Çocuk Beden Kitle Endeksi </a>
-                        <a href="../on-health/percentile.php" class="dropdown-item">Persentil Eğrisi</a>
-                        <a href="../on-health/kpercentile.php" class="dropdown-item">Kız Çocukları İçin Persentil Tablosu</a>
-                        <a href="../on-health/epercentile.php" class="dropdown-item">Erkek Çocukları İçin Persentil Tablosu</a>
-                        <a href="../on-health/pregnancy.php" class="dropdown-item">Gebelik Dönemi </a>
-                        <a href="../on-health/newborn.php" class="dropdown-item">YENİDOĞAN</a>
+                        <a href="/../on-health/vaccination-schedule" class="dropdown-item">Bebeğinizin Aşı Takvimi</a>
+                        <a href="/../on-health/activity" class="dropdown-item">Aktiviteye Göre Harcanan Kalori</a>
+                        <a href="/../on-health/waist-size" class="dropdown-item">Yetişkin Bel Çevresi Hesaplama</a>
+                        <a href="/../on-health/body-index" class="dropdown-item">Yetişkin Beden Kitle Endeksi</a>
+                        <a href="/../on-health/child-index" class="dropdown-item">Çocuk Beden Kitle Endeksi </a>
+                        <a href="/../on-health/percentile" class="dropdown-item">Persentil Eğrisi</a>
+                        <a href="/../on-health/kpercentile" class="dropdown-item">Kız Çocukları İçin Persentil Tablosu</a>
+                        <a href="/../on-health/epercentile" class="dropdown-item">Erkek Çocukları İçin Persentil Tablosu</a>
+                        <a href="/../on-health/pregnancy" class="dropdown-item">Gebelik Dönemi </a>
+                        <a href="/../on-health/newborn" class="dropdown-item">YENİDOĞAN</a>
                     </div>
                 </div>
-                <a href="communication.php" class="nav-item nav-link">İLETİŞİM</a>
+                <a href="/../homepage/communication" class="nav-item nav-link">İLETİŞİM</a>
             </div>
            
         </div>

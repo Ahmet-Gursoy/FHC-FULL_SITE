@@ -2,10 +2,10 @@
 <html lang="en">
 
 
-<?php include 'head.php'; ?>
-<?php include 'spinner.php'; ?>
-<?php include 'topbar.php'; ?>
-<?php include 'navbar.php'; ?>
+<?php include '../includes/head.php'; ?>
+<?php include '../includes/spinner.php'; ?>
+<?php include '../includes/topbar.php'; ?>
+<?php include '../includes/navbar.php'; ?>
 
 <body>
     <!-- Page Header Start -->
@@ -75,29 +75,11 @@
         </div>
     </div>
     <!-- Contact End -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-    <?php include 'footer.php' ?>
-    <?php include 'js-library.php' ?>
+    <?php include '../includes/footer.php' ?>
+    <?php include '../includes/js-library.php' ?>
 </body>
 
 </html>

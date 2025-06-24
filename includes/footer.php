@@ -45,33 +45,33 @@ $copyright_yazisi = ($footer_ayar && !empty($footer_ayar['copyright_yazisi'])) ?
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4" >Sağlık Hesaplamaları</h5>
-                    <a class="btn btn-link" href="../on-health/vaccination-schedule.php"> Bebeğinizin Aşı Takvimi</a>
-                    <a class="btn btn-link" href="../on-health/activity.php">Aktiviteye Göre Harcanan Kalori</a>
-                    <a class="btn btn-link" href="../on-health/waist-size.php">Yetişkin Bel Çevresi Hesaplama</a>
-                    <a class="btn btn-link" href="../on-health/child-index.php">Çocuk Beden Kitle İndeksi</a>
-                    <a class="btn btn-link" href="../on-health/body-index.php">Yetişkin Beden Kitle İndeksi</a>
-                    <a class="btn btn-link" href="../on-health/percentile.php"> Persentil Eğrisi</a>
-                    <a class="btn btn-link" href="../on-health/kpercentile.php">Kız Çocuklar İçin Persentil Tablosu</a>
-                    <a class="btn btn-link" href="../on-health/epercentile.php">Erkek Çocuklar İçin Persentil Tablosu</a>
-                    <a class="btn btn-link" href="../on-health/pregnancy.php">GEBELİK DÖNEMİ</a>
-                    <a class="btn btn-link" href="../on-health/newborn.php"> YENİDOĞAN</a>
+                    <a class="btn btn-link" href="/../on-health/vaccination-schedule"> Bebeğinizin Aşı Takvimi</a>
+                    <a class="btn btn-link" href="/../on-health/activity">Aktiviteye Göre Harcanan Kalori</a>
+                    <a class="btn btn-link" href="/../on-health/waist-size">Yetişkin Bel Çevresi Hesaplama</a>
+                    <a class="btn btn-link" href="/../on-health/child-index">Çocuk Beden Kitle İndeksi</a>
+                    <a class="btn btn-link" href="/../on-health/body-index">Yetişkin Beden Kitle İndeksi</a>
+                    <a class="btn btn-link" href="/../on-health/percentile"> Persentil Eğrisi</a>
+                    <a class="btn btn-link" href="/../on-health/kpercentile">Kız Çocuklar İçin Persentil Tablosu</a>
+                    <a class="btn btn-link" href="/../on-health/epercentile">Erkek Çocuklar İçin Persentil Tablosu</a>
+                    <a class="btn btn-link" href="/../on-health/pregnancy">GEBELİK DÖNEMİ</a>
+                    <a class="btn btn-link" href="/../on-health/newborn"> YENİDOĞAN</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">ASM Rehberi</h5>
-                    <a class="btn btn-link" href="../homepage/coming-to-asm.php"> ASM'ye Gelirken</a>
-                    <a class="btn btn-link" href="../homepage/examination.php"> Tetkik İşlemleri</a>
-                    <a class="btn btn-link" href="../homepage/patient-rights.php"> Hasta Hakları</a>
-                    <a class="btn btn-link" href="../institutional/service-standards.php"> Hizmet Standartları</a>
-                    <a class="btn btn-link" href="../homepage/service-policy.php">Hizmet Politikamız</a>
-                    <a class="btn btn-link" href="../homepage/inspection-procedures.php"> Muayene İşlemleri</a>
+                    <a class="btn btn-link" href="/../homepage/coming-to-asm"> ASM'ye Gelirken</a>
+                    <a class="btn btn-link" href="/../homepage/examination"> Tetkik İşlemleri</a>
+                    <a class="btn btn-link" href="/../homepage/patient-rights"> Hasta Hakları</a>
+                    <a class="btn btn-link" href="/../institutional/service-standards"> Hizmet Standartları</a>
+                    <a class="btn btn-link" href="/../homepage/service-policy">Hizmet Politikamız</a>
+                    <a class="btn btn-link" href="/../homepage/inspection-procedures"> Muayene İşlemleri</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Dosyalar</h5>
-                    <a class="btn btn-link" href="../filesasm/instructions.php"> ASM Talimatları</a>
-                    <a class="btn btn-link" href="../filesasm/useful-files.php"> Yararlı Dosyalar</a>
-                    <a class="btn btn-link" href="../filesasm/first-aid.php">İlk Yardım</a>
-                    <a class="btn btn-link" href="../filesasm/smoking-harm.php">Sigaranın Zararları</a>
-                    <a class="btn btn-link" href="../filesasm/disease-information.php">Hastalıklar Hakkında</a>
+                    <a class="btn btn-link" href="/../filesasm/instructions"> ASM Talimatları</a>
+                    <a class="btn btn-link" href="/../filesasm/useful-files"> Yararlı Dosyalar</a>
+                    <a class="btn btn-link" href="/../filesasm/first-aid">İlk Yardım</a>
+                    <a class="btn btn-link" href="/../filesasm/smoking-harm">Sigaranın Zararları</a>
+                    <a class="btn btn-link" href="/../filesasm/disease-information">Hastalıklar Hakkında</a>
                 </div>
             </div>
         </div>

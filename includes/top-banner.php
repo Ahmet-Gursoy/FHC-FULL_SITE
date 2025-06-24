@@ -7,7 +7,7 @@
 </head>
 <body>
 <div class="top-banner">
-        <a href="index.php" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+        <a href="/index" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
             <img src="img/saglikbakan2.jpg" alt="Logo" style="height: 50px; margin-left: 0px; margin-right: 10px;">
             <h2 class="m-0 text-primary">ELMASBAHÇELER ASM</h2>
         </a>

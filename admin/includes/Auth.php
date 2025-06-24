@@ -17,7 +17,7 @@ function requireAuth($roles = []) {
             echo '<h4 class="mb-3">Bu sayfaya erişim yetkiniz yok!</h4>';
             echo '<p>Mevcut rolünüz: <strong>' . htmlspecialchars($_SESSION['role'] ?? 'Tanımsız') . '</strong></p>';
             echo '<p>Gerekli roller: <strong>' . implode(', ', $roles) . '</strong></p>';
-            echo '<p>5 saniye içinde <a href="/admin/dashboard.php" class="alert-link">Dashboard</a> sayfasına yönlendirileceksiniz.</p>';
+            echo '<p>5 saniye içinde <a href="/admin/dashboard" class="alert-link">Dashboard</a> sayfasına yönlendirileceksiniz.</p>';
             echo '<div id="countdown" class="display-5 fw-bold">5</div>';
             echo '</div></div></div></div>';
             echo '<script>
@@ -28,7 +28,7 @@ function requireAuth($roles = []) {
               if (seconds > 0) {
                 countdown.textContent = seconds;
               } else {
-                window.location.href = "/admin/dashboard.php";
+                window.location.href = "/admin/dashboard";
               }
             }, 1000);
             </script>';

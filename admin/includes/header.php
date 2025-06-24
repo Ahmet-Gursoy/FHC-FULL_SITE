@@ -12,6 +12,6 @@ if (!defined('ADMIN_HEADER')) die('Erişim engellendi!');
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/admin/dashboard.php">Admin Paneli</a>
+    <a class="navbar-brand" href="/admin/dashboard">Admin Paneli</a>
   </div>
 </nav> 

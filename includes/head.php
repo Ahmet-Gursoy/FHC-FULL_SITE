@@ -25,7 +25,7 @@ if ($head_ayar && isset($head_ayar['site_basligi']) && !empty($head_ayar['site_b
     $site_title = 'Bursa Osmangazi 39 NO\'lu Elmasbahçeler ASM';
 }
 ?>
-
+<base href="/" />
 <meta charset="utf-8">
     <title><?php echo htmlspecialchars($site_title); ?></title>
     <style> .navbar-brand h2 {color: red !important;}</style>

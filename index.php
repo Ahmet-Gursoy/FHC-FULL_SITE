@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<base href="/" />
 <!-- Q3JlYXRlZCBieSBLUw== -->
 <meta charset="utf-8">
     <title>Bursa Osmangazi 39 NO'lu Elmasbahçeler ASM</title>
@@ -104,7 +105,7 @@
     <!-- Carousel End -->
 
     <hr>
-    <div class="text-center"><a href="homepage/working-hours.php">
+    <div class="text-center"><a href="/homepage/working-hours">
             <h1 style="color:#F53A01;">->ÇALIŞMA SAATLERİMİZ</h1>
         </a>
         <p>Buradan çalışma saatlerimiz ve esnek mesai tablomuz hakkında bilgi alabilirsiniz</p>
@@ -137,7 +138,7 @@
             <div class="row g-4">
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="homepage/coming-to-asm.php" class="text-decoration-none">
+                    <a href="/homepage/coming-to-asm" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/asmfoto2.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -149,7 +150,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="homepage/examination.php" class="text-decoration-none">
+                    <a href="/homepage/examination" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/examination.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -161,7 +162,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="homepage/patient-rights.php" class="text-decoration-none">
+                    <a href="/homepage/patient-rights" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/patient-rights2.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -173,7 +174,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="institutional/service-standards.php" class="text-decoration-none">
+                    <a href="/institutional/service-standards" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/service-standards.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -185,7 +186,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="homepage/service-policy.php" class="text-decoration-none">
+                    <a href="/homepage/service-policy" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/service-policy.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -197,7 +198,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="homepage/inspection-procedures.php" class="text-decoration-none">
+                    <a href="/homepage/inspection-procedures" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/inspection-procedures5.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -214,7 +215,7 @@
 
     <!-- Service End -->
 
-    <a href="homepage/sayhello.php" style="position:absolute;opacity:1000;">-</a>
+    <a href="/homepage/sayhello" style="position:absolute;opacity:1000;">-</a>
 
     <!--Hizmetler Başlangıç -->
     <?php
@@ -295,7 +296,7 @@
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
 
                 <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <a href="homepage/announcements1.php" class="text-decoration-none">
+                    <a href="/homepage/announcements1" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/600x400-6.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -307,7 +308,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <a href="homepage/announcements2.php" class="text-decoration-none">
+                    <a href="/homepage/announcements2" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/600x400-5-2.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -319,7 +320,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <a href="homepage/announcements3.php" class="text-decoration-none">
+                    <a href="/homepage/announcements3" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/antibiyotik.jpg" alt="">
                             <div class="position-relative p-4 pt-0">

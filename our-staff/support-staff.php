@@ -48,14 +48,31 @@ $result = $stmt->get_result();
         </div>
 
         <div class="row g-4">
-              <?php while($row = $result->fetch_assoc()): ?>
-    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-      <div class="team-item rounded overflow-hidden text-center p-4">
-        <img class="img-fluid rounded-circle mb-3" src="../img/yardimci.jpg" alt="yardımcı personel">
-        <h5 class="mb-0"><?= htmlspecialchars($row['ad'] . ' ' . $row['soyad']) ?></h5>
-      </div>
+           <?php while($row = $result->fetch_assoc()): 
+  $adSoyad = htmlspecialchars($row['ad'] . ' ' . $row['soyad']);
+  $pozisyon = htmlspecialchars($row['pozisyon'] ?? '');
+  $cinsiyet = strtolower($row['cinsiyet'] ?? '');
+
+  // Fotoğraf yolu belirleme
+  if (!empty($row['foto'])) {
+    $fotoYolu = '../admin/' . $row['foto'];
+  } else {
+    $fotoYolu = ($cinsiyet === 'kadın') 
+      ? '../admin/uploads/staff4.jpg' 
+      : '../admin/uploads/staff3.png';
+  }
+?>
+  <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+    <div class="team-item rounded overflow-hidden text-center p-4">
+      <img class="img-fluid rounded-circle mb-3" src="<?= $fotoYolu ?>" alt="<?= $adSoyad ?>">
+      <h5 class="mb-0"><?= $adSoyad ?></h5>
+      <?php if (!empty($pozisyon)): ?>
+        <p class="text-muted mb-0"><?= $pozisyon ?></p>
+      <?php endif; ?>
     </div>
-  <?php endwhile; ?>
+  </div>
+<?php endwhile; ?>
+
         </div>
     </div>
 </div>

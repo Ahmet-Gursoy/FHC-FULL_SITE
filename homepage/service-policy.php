@@ -15,7 +15,7 @@
             </nav>
         </div>
     </div>
-    <img src="img/asmfoto.jpg" alt="ASM Görseli" class="img-fluid mx-auto d-block mb-4">
+    <img src="../img/asmfoto.jpg" alt="ASM Görseli" class="img-fluid mx-auto d-block mb-4">
     <div class="container my-5" style="text-align: center;">
         <hr>
     <h2>"Kaliteli ,standart üstü ve insan faktörünü ön planda tutan anlayışla hizmet vermeyi amaç edinmiş olan Aile Sağlığı Merkezimize, sizler için hergün yeniden enerji toplayarak yaşamak için yaşatma ideali ile sizleri beklemekteyiz."

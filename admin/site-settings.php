@@ -85,6 +85,12 @@ if (isset($_POST['hizmet_baslik'], $_POST['hizmet_aciklama'])) {
     $conn->query("INSERT INTO hizmetler (baslik, aciklama) VALUES ('$baslik', '$aciklama')");
     $alert = '<div class="alert alert-success">Hizmet eklendi.</div>';
 }
+// Hizmet silme
+if (isset($_GET['hizmet_sil']) && is_numeric($_GET['hizmet_sil'])) {
+    $sil_id = (int)$_GET['hizmet_sil'];
+    $conn->query("DELETE FROM hizmetler WHERE id = $sil_id");
+    $alert = '<div class="alert alert-success">Hizmet başarıyla silindi.</div>';
+}
 // Hizmetleri çek
 $hizmetler = $conn->query("SELECT * FROM hizmetler ORDER BY id DESC");
 
@@ -211,6 +217,10 @@ include __DIR__.'/includes/header.php';
                     <tr>
                       <td><?php echo htmlspecialchars($row['baslik']); ?></td>
                       <td><?php echo nl2br(htmlspecialchars($row['aciklama'])); ?></td>
+                      <td>
+                      <a href="?hizmet_sil=<?php echo $row['id']; ?>" class="btn btn-sm btn-danger"
+                        onclick="return confirm('Bu hizmeti silmek istediğinizden emin misiniz?');">Sil  </a>
+                      </td>                   
                     </tr>
                   <?php endwhile; else: ?>
                     <tr><td colspan="2">Kayıt yok</td></tr>
