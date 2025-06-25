@@ -128,10 +128,16 @@
         display: block;
         border: none;
         margin-top: 0;
-        top: 150%;
+        top: 100%;
         opacity: 0;
         visibility: hidden;
         transition: .5s;
+        right: -60; /* Sağa yapışık olmasını sağlar */
+        left: auto;
+    
+        max-width: 300px; /* Genişliği sabitle (taşmayı azaltır) */
+        overflow-wrap: break-word; /* Uzun yazıları böl */
+        word-break: break-word;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
