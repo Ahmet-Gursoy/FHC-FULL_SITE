@@ -1,8 +1,8 @@
 <?php
 // Veritabanı bağlantısı - galeri için
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "94.138.202.35";
+$username = "_SBA";         
+$password = "Sba1171212311";
 $dbname = "fhc";
 
 try {

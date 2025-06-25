@@ -220,10 +220,10 @@
     <!--Hizmetler Başlangıç -->
     <?php
     // Veritabanı bağlantısı - hizmetler için
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "fhc";
+   $servername = "94.138.202.35";
+$username = "_SBA";         
+$password = "Sba1171212311";
+$dbname = "fhc";
 
     try {
         $pdo_hizmet = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);

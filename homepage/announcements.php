@@ -9,12 +9,16 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a class="text-white" href="#">Anasayfa</a></li>
                 <li class="breadcrumb-item"><a class="text-white" href="#">Sağlık Üzerine</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">Sağlık Bakanlığı Duyuruları</li>
+                 <li class="breadcrumb-item"><a class="text-white" href="#">Sağlık Bakanlığı Duyuruları</a></li>
             </ol>
         </nav>
     </div>
 </div>
 <!-- PHP kodu burada duyuruları çekecek -->
+<hr> 
+<div class="baslik"><h2 style="color:red;" ">"DUYURULAR SAĞLIK BAKANLIĞININ EKLEDİĞİ EN GÜNCEL DUYURULARDIR!!"</h2></div>
+<hr>
+<br>
 <div id="duyuru-konteyner">
 
 
@@ -68,8 +72,6 @@
                 padding: 0;
                 margin: 0;
             }
-
-        }
 
         h1 {
             text-align: center;
@@ -142,6 +144,8 @@
         .news-title:hover {
             background-color: #e0e0e0;
         }
+       
+
     </style>
 
 </div>

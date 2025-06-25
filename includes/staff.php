@@ -1,10 +1,11 @@
 <!-- Team Start -->
 <?php
 // Veritabanı bağlantısı
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "94.138.202.35";
+$username = "_SBA";         
+$password = "Sba1171212311";
 $dbname = "fhc";
+
 
 try {
     $pdo = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);

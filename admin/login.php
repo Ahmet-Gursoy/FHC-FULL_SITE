@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Veritabanı bağlantısı
-$conn = new mysqli('localhost', 'root', '', 'fhc');
+$conn = new mysqli('94.138.202.35', '_SBA', 'Sba1171212311', 'fhc');
 if ($conn->connect_error) {
     die('Veritabanı bağlantı hatası: ' . $conn->connect_error);
 }

@@ -3,7 +3,7 @@ require_once __DIR__.'/includes/Auth.php';
 requireAuth(['admin']);
 
 // Veritabanı bağlantısı
-$conn = new mysqli('localhost', 'root', '', 'fhc');
+$conn = new mysqli('94.138.202.35', '_SBA', 'Sba1171212311', 'fhc');
 if ($conn->connect_error) {
     die('Veritabanı bağlantı hatası: ' . $conn->connect_error);
 }
@@ -24,6 +24,7 @@ if (isset($_POST['site_ismi']) || isset($_POST['site_basligi'])) {
         } elseif (isset($_POST['site_basligi'])) {
             $conn->query("UPDATE site_ayar SET site_basligi='$site_basligi' WHERE id=1");
         }
+        
     } else {
         if (isset($_POST['site_ismi']) && isset($_POST['site_basligi'])) {
             $conn->query("INSERT INTO site_ayar (site_ismi, site_basligi) VALUES ('$site_ismi', '$site_basligi')");
