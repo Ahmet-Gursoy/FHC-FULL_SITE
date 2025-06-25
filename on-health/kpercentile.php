@@ -84,11 +84,7 @@
             </tbody>
         </table>
     </div>
-    <?php include '../includes/js-library.php'; ?>
-    <?php include '../includes/footer.php'; ?>
-</body>
-
-</html>
+   
 <style>
     * {
         margin: 0;
@@ -152,3 +148,7 @@
         background-color: #ffe5e5;
     }
 </style>
+ <?php include '../includes/js-library.php'; ?>
+    <?php include '../includes/footer.php'; ?>
+</body>
+</html>

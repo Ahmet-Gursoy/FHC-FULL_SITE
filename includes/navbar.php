@@ -36,8 +36,8 @@ try {
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kurumsal</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="/../institutional/service-standards" class="dropdown-item">Hizmet Standartları</a>
-                        <a href="/../institutional/priority-patients" class="dropdown-item">Öncelikli Hastalar</a>
+                        <a href="/../homepage/fhcdirectory?id=4" class="dropdown-item">Hizmet Standartları</a>
+                        <a href="/../homepage/fhcdirectory?id=7" class="dropdown-item">Öncelikli Hastalar</a>
                     </div>
                 </div>
                 <a href="/../homepage/announcements" class="nav-item nav-link">DUYURULAR</a>
@@ -79,7 +79,6 @@ try {
                         <a href="/../on-health/waist-size" class="dropdown-item">Yetişkin Bel Çevresi Hesaplama</a>
                         <a href="/../on-health/body-index" class="dropdown-item">Yetişkin Beden Kitle Endeksi</a>
                         <a href="/../on-health/child-index" class="dropdown-item">Çocuk Beden Kitle Endeksi </a>
-                        <a href="/../on-health/percentile" class="dropdown-item">Persentil Eğrisi</a>
                         <a href="/../on-health/kpercentile" class="dropdown-item">Kız Çocukları İçin Persentil Tablosu</a>
                         <a href="/../on-health/epercentile" class="dropdown-item">Erkek Çocukları İçin Persentil Tablosu</a>
                         <a href="/../on-health/pregnancy" class="dropdown-item">Gebelik Dönemi </a>

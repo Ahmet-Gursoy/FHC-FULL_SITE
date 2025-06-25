@@ -138,7 +138,7 @@
             <div class="row g-4">
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="/homepage/coming-to-asm" class="text-decoration-none">
+                    <a href="/homepage/fhcdirectory?id=1" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/asmfoto2.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -150,7 +150,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="/homepage/examination" class="text-decoration-none">
+                    <a href="/homepage/fhcdirectory?id=2" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/examination.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -162,7 +162,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="/homepage/patient-rights" class="text-decoration-none">
+                    <a href="/homepage/fhcdirectory?id=3" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/patient-rights2.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -174,7 +174,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="/institutional/service-standards" class="text-decoration-none">
+                    <a href="/homepage/fhcdirectory?id=4" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/service-standards.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -186,7 +186,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="/homepage/service-policy" class="text-decoration-none">
+                    <a href="/homepage/fhcdirectory?id=5" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/service-policy.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -198,7 +198,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="/homepage/inspection-procedures" class="text-decoration-none">
+                    <a href="/homepage/fhcdirectory?id=6" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/inspection-procedures5.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -296,7 +296,7 @@
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
 
                 <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <a href="/homepage/announcements1" class="text-decoration-none">
+                    <a href="/homepage/announcements1?id=1" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/600x400-6.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -308,7 +308,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <a href="/homepage/announcements2" class="text-decoration-none">
+                    <a href="/homepage/announcements1?id=2" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/600x400-5-2.jpg" alt="">
                             <div class="position-relative p-4 pt-0">
@@ -320,7 +320,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <a href="/homepage/announcements3" class="text-decoration-none">
+                    <a href="/homepage/announcements1?id=3" class="text-decoration-none">
                         <div class="service-item rounded overflow-hidden">
                             <img class="img-fluid" src="img/antibiyotik.jpg" alt="">
                             <div class="position-relative p-4 pt-0">

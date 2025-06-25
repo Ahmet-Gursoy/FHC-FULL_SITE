@@ -176,8 +176,7 @@
     </div>
 </div>
 
-<?php include '../includes/js-library.php'; ?>
-<?php include '../includes/footer.php'; ?>
+
 <style>
     .first-aid-box {
         background: #f8f9fa;
@@ -210,3 +209,5 @@
         color: #dc3545;
     }
 </style>
+<?php include '../includes/js-library.php'; ?>
+<?php include '../includes/footer.php'; ?>
