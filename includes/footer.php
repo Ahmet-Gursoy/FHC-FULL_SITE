@@ -1,10 +1,7 @@
  <!-- Footer Start -->
  <?php
 // Veritabanı bağlantısı - footer ayarları için
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "fhc";
+require_once __DIR__ . '../includes/db.php';
 
 try {
     $pdo_footer = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);

@@ -1,9 +1,0 @@
-RewriteEngine On
-
-# Eğer dizin değilse ve .php dosyası varsa yönlendir
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{DOCUMENT_ROOT}/$1.php -f
-RewriteRule ^(.+)$ $1.php [L,QSA]
-
-

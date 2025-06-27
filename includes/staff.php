@@ -1,10 +1,7 @@
 <!-- Team Start -->
 <?php
 // Veritabanı bağlantısı
-$servername = "94.138.202.35";
-$username = "_SBA";         
-$password = "Sba1171212311";
-$dbname = "fhc";
+require_once __DIR__ . '../includes/db.php';
 
 
 try {

@@ -1,10 +1,7 @@
 <!-- Topbar Start -->
 <?php
 // Veritabanı bağlantısı - topbar ayarları için
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "fhc";
+require_once __DIR__ . '../includes/db.php';
 
 try {
     $pdo_topbar = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);

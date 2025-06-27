@@ -1,9 +1,6 @@
 <?php
 // Veritabanı bağlantısı - site başlığı için
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "fhc";
+require_once __DIR__ . '../includes/db.php';
 
 try {
     $pdo_head = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);

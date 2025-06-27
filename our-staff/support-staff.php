@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = new mysqli('94.138.202.35', '_SBA', 'Sba1171212311', 'fhc');
+require_once __DIR__ . '../includes/db.php';
 if ($conn->connect_error) {
     die('Veritabanı bağlantı hatası: ' . $conn->connect_error);
 }

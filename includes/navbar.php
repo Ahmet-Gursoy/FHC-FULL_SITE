@@ -1,10 +1,7 @@
 <!-- Navbar Start -->
 <?php
 // Veritabanı bağlantısı - site adını çekmek için
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "fhc";
+require_once __DIR__ . '../includes/db.php';
 
 try {
     $pdo = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
